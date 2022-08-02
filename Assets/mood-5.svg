@@ -1,0 +1,21 @@
+<svg width="38" height="26" viewBox="0 0 38 26" fill="none" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<path d="M19.5359 25.199C26.7486 25.199 32.5956 19.558 32.5956 12.5995C32.5956 5.64102 26.7486 3.05176e-05 19.5359 3.05176e-05C12.3233 3.05176e-05 6.47626 5.64102 6.47626 12.5995C6.47626 19.558 12.3233 25.199 19.5359 25.199Z" fill="#A6D229"/>
+<g opacity="0.61">
+<rect x="0.882996" y="2.40784" width="21.0919" height="20.3486" fill="url(#pattern0)"/>
+</g>
+<g opacity="0.61">
+<rect x="16.9082" y="2.40787" width="21.0919" height="20.3486" fill="url(#pattern1)"/>
+</g>
+<path d="M12.6624 10.0418C12.6624 10.0418 14.2335 8.43126 15.9519 10.0418" stroke="#444444" stroke-width="1.84489" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M23.0953 10.0418C23.0953 10.0418 24.6664 8.43126 26.3848 10.0418" stroke="#444444" stroke-width="1.84489" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M19.5359 18.8756C22.5554 18.8756 25.0593 16.7204 25.4766 13.9258C25.5502 13.4995 25.182 13.1206 24.7401 13.1206H14.3562C13.9144 13.1206 13.5707 13.4995 13.6198 13.9258C14.0126 16.7204 16.5165 18.8756 19.5359 18.8756Z" fill="#444444"/>
+<defs>
+<pattern id="pattern0" patternContentUnits="objectBoundingBox" width="1" height="1">
+<use xlink:href="#image0_613_13154"/>
+</pattern>
+<pattern id="pattern1" patternContentUnits="objectBoundingBox" width="1" height="1">
+<use xlink:href="#image0_613_13154"/>
+</pattern>
+<image id="image0_613_13154" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAWsAAAFrCAYAAAAXRqh4AAAACXBIWXMAAC4jAAAuIwF4pT92AAAA"/>
+</defs>
+</svg>
