@@ -10,6 +10,7 @@
 }
 body {
   font-family: "Roboto";
+  font-style: normal;
 }
 .header {
   height: 44px;
@@ -25,10 +26,10 @@ body {
 .header__link {
   height: 44px;
 }
-.header__link--logo {
+.header__link-logo {
   width: 44px;
 }
-.header__link--logout {
+.header__link-logout {
   width: 24px;
 }
 .header__logo {
@@ -58,8 +59,6 @@ body {
 }
 .menu__item {
   height: 48px;
-  font-family: "Roboto";
-  font-style: normal;
   font-weight: 400;
   font-size: 11px;
   line-height: 16.5px;
@@ -68,7 +67,6 @@ body {
   background-color: #ffffff;
   cursor: pointer;
 }
-
 /* .menu__item--buddy {
   border: 1px solid #dfdfdf;
   border-top: none;
@@ -77,16 +75,15 @@ body {
 /* ask here */
 /* right cizik */
 /* whole page grid or can i divide  */
-
 .menu__item--isActive {
   background-color: var(--primary-blue);
   color: #ffffff;
 }
-.menu__item__text {
+.menu__title {
   height: 17px;
   margin: 0px 0px 3px;
 }
-.menu__item__image {
+.menu__image {
   height: 17px;
   width: 18px;
   margin: 7px 40px 0px 35px;
@@ -100,9 +97,6 @@ body {
   grid-column-gap: 0px;
   grid-row-gap: 0px;
 }
-/* .profile__photo {
-} */
-
 .profile__text {
   font-family: "Roboto";
   font-style: normal;
@@ -116,25 +110,24 @@ body {
   font-weight: 500;
   font-size: 17px;
   line-height: 130%;
+  display: inline-block;
 }
 .profile__info {
   height: 40px;
-  /* border: 1px solid black; */
 }
-.profile__info--self {
+.profile__info-self {
   width: 35px;
   margin: auto 0px auto 10px;
 }
-.profile__info--buddy {
+.profile__info-buddy {
   width: 87px;
   margin: auto 0px auto 46px;
 }
-
-.section__mood {
+.mood {
   position: absolute;
   width: 320px;
 }
-.section__mood__background {
+.mood__background {
   width: 332px;
   height: 243px;
   position: absolute;
@@ -144,11 +137,11 @@ body {
   background-color: rgba(250, 150, 27, 0.1);
 }
 
-.mood__title {
+.mood__header {
   margin: 25px 177px 0px 21px;
   text-align: center;
 }
-.mood__title__text {
+.mood__question {
   position: relative;
   color: #333333;
   font-weight: 500;
@@ -162,7 +155,7 @@ body {
   right: 2.6px;
   top: 15.35px;
 }
-.mood__frame {
+.mood__container {
   width: 273px;
   height: 154px;
   margin: 8px auto 30px;
@@ -172,7 +165,7 @@ body {
   border: 1px solid #fa941b;
   border-radius: 5px;
 }
-.mood__frame__title {
+.mood__title {
   font-style: normal;
   font-weight: 400;
   font-size: 14px;
@@ -180,14 +173,14 @@ body {
   text-align: center;
   margin: 8px auto;
 }
-.mood__frame__inner {
+.mood__content {
   width: 261.23px;
   height: 112.14px;
   background: #ffffff;
   border-radius: 5px;
   margin: 7px auto;
 }
-.mood__frame__inner__title {
+.mood__content-title {
   font-style: normal;
   font-weight: 400;
   font-size: 14px;
@@ -195,7 +188,7 @@ body {
   color: #333333;
   text-align: center;
 }
-.mood__frame__inner__paragraph {
+.mood__statement {
   font-style: normal;
   font-weight: 400;
   font-size: 12px;
@@ -205,18 +198,12 @@ body {
   margin: 0 16px;
   text-align: start;
 }
-.mood__frame__inner__smiles {
+.mood__emoji {
   margin: 14px 17px 19px 14px;
   display: grid;
   grid-template-columns: repeat(5, 1fr);
   grid-template-rows: 1fr;
-  /* grid-column-gap: 15px; */
 }
-.smile {
-  /* align-items: space; */
+.emoji {
   margin: 0px auto;
 }
-/* .smile__image {
-  height: 25px;
-  width: 26px;
-} */
