@@ -15,10 +15,14 @@
 <body>
     <header class="header">
         <a href="#" class="header__link header__link--logo">
-            <img src="./Assets/logo.png" alt="logo" class="header__logo" />
+            <i>
+                <img src="./Assets/logo.png" alt="logo" class="header__logo" />
+            </i>
         </a>
         <a href="#" class="header__link header__link--logout">
-            <img src="./Assets/logout.svg" alt="logout" class="header__logout" />
+            <i>
+                <img src="./Assets/logout.svg" alt="logout" class="header__logout" />
+            </i>
         </a>
     </header>
 
@@ -41,17 +45,47 @@
     <section class="section">
         <div class="profile">
             <div class="profile__photo">
-                <img src="./Assets/profile.svg" alt="" />
+                <i>
+                    <img src="./Assets/profile.svg" alt="" />
+                </i>
             </div>
-            <div class="profile__name">
-                <p>Name</p>
-                <p>Rick</p>
+            <div class="profile__info profile__info--self">
+                <p class="profile__text">Name</p>
+                <p class="profile__text profile__text--name">Rick</p>
             </div>
-            <div class="profile__budy">
-                <p>Name</p>
-                <img src="./Assets/malaika.svg" alt="">
-                <p>Malaika</p>
+            <div class="profile__info profile__info--buddy">
+                <p class="profile__text">My buddy</p>
+                <i>
+                    <img src="./Assets/malaika.svg" alt="buddy" width="20px" height="20px" />
+                </i>
+                <span class="profile__text profile__text--name">Malaika</span>
             </div>
+        </div>
+    </section>
+    <section class="section section__mood">
+        <div class="section__mood__background">
+            <img src="./Assets/background-leaf.svg" alt="leaf" class="background-leaf" />
+        </div>
+
+        <div class="mood__title">
+            <h2 class="mood__title__text">How are you?</h2>
+        </div>
+        <div class="mood__frame">
+            <h2 class="mood__frame__title">+ My mood</h2>
+            <div class="mood__frame__inner">
+                <h2 class="mood__frame__inner__title">Share how you feel with ArmenTeKort</h2>
+                <p class="mood__frame__inner__paragraph">This information is only shared with ATK and won’t be shown to
+                    your buddy.</p>
+                <div class="mood__frame__inner__smiles">
+                    <div class="smile smile1"><img src="./Assets/mood-1.svg" alt="smile"></div>
+                    <div class="smile smile2"><img src="./Assets/mood-2.svg" alt="smile"></div>
+                    <div class="smile smile3"><img src="./Assets/mood-3.svg" alt="smile"></div>
+                    <div class="smile smile4"><img src="./Assets/mood-4.svg" alt="smile"></div>
+                    <div class="smile smile5"><img src="./Assets/mood-5.svg" alt="smile"></div>
+
+                </div>
+            </div>
+
         </div>
     </section>
 </body>

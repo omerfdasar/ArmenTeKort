@@ -8,7 +8,9 @@
   --primary-yellow: #fa941b;
   --primary-blue: #2835ac;
 }
-
+body {
+  font-family: "Roboto";
+}
 .header {
   height: 44px;
   width: 320px;
@@ -64,6 +66,7 @@
   text-align: center;
   color: #7a7a7a;
   background-color: #ffffff;
+  cursor: pointer;
 }
 
 /* .menu__item--buddy {
@@ -72,7 +75,9 @@
   border-bottom: none;
 } */
 /* ask here */
+/* right cizik */
 /* whole page grid or can i divide  */
+
 .menu__item--isActive {
   background-color: var(--primary-blue);
   color: #ffffff;
@@ -89,5 +94,125 @@
 }
 .profile {
   margin: 17px 29px;
+  display: grid;
+  grid-template-columns: 86px repeat(2, 35px);
+  grid-template-rows: 86px;
+  grid-column-gap: 0px;
+  grid-row-gap: 0px;
+}
+/* .profile__photo {
+} */
+
+.profile__text {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 13px;
+  line-height: 150%;
+  color: #7a7a7a;
+}
+.profile__text--name {
+  color: var(--primary-blue);
+  font-weight: 500;
+  font-size: 17px;
+  line-height: 130%;
+}
+.profile__info {
+  height: 40px;
+  /* border: 1px solid black; */
+}
+.profile__info--self {
+  width: 35px;
+  margin: auto 0px auto 10px;
+}
+.profile__info--buddy {
+  width: 87px;
+  margin: auto 0px auto 46px;
 }
 
+.section__mood {
+  position: absolute;
+  width: 320px;
+}
+.section__mood__background {
+  width: 332px;
+  height: 243px;
+  position: absolute;
+  left: -6px;
+  z-index: 1;
+  transform: rotateZ(-2deg);
+  background-color: rgba(250, 150, 27, 0.1);
+}
+
+.mood__title {
+  margin: 25px 177px 0px 21px;
+  text-align: center;
+}
+.mood__title__text {
+  position: relative;
+  color: #333333;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 130%;
+  z-index: 3;
+}
+.background-leaf {
+  z-index: 2;
+  position: absolute;
+  right: 2.6px;
+  top: 15.35px;
+}
+.mood__frame {
+  width: 273px;
+  height: 154px;
+  margin: 8px auto 30px;
+  position: relative;
+  z-index: 3;
+  background-color: var(--primary-yellow);
+  border: 1px solid #fa941b;
+  border-radius: 5px;
+}
+.mood__frame__title {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  color: #ffffff;
+  text-align: center;
+  margin: 8px auto;
+}
+.mood__frame__inner {
+  width: 261.23px;
+  height: 112.14px;
+  background: #ffffff;
+  border-radius: 5px;
+  margin: 7px auto;
+}
+.mood__frame__inner__title {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 150%;
+  color: #333333;
+  text-align: center;
+}
+.mood__frame__inner__paragraph {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 120%;
+  color: #7a7a7a;
+  text-align: left;
+  margin: 0 16px;
+  text-align: start;
+}
+.mood__frame__inner__smiles {
+  margin: 14px 17px 19px 14px;
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  grid-template-rows: 1fr;
+  grid-column-gap: 23px;
+}
+.smile {
+  height: 25px;
+  width: 26px;
+}
