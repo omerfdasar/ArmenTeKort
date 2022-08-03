@@ -210,9 +210,13 @@ body {
   display: grid;
   grid-template-columns: repeat(5, 1fr);
   grid-template-rows: 1fr;
-  grid-column-gap: 23px;
+  /* grid-column-gap: 15px; */
 }
 .smile {
+  /* align-items: space; */
+  margin: 0px auto;
+}
+/* .smile__image {
   height: 25px;
   width: 26px;
-}
+} */
