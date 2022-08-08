@@ -15,11 +15,12 @@ body {
   font-style: normal;
   position: absolute;
 }
+
+/* Header */
 .header {
   height: 44px;
   width: 320px;
   background-color: var(--primary-yellow);
-  /* grid */
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   grid-template-rows: 1fr;
@@ -29,10 +30,10 @@ body {
 .header__link {
   height: 44px;
 }
-.header__link-logo {
+.header__link--logo {
   width: 44px;
 }
-.header__link-logout {
+.header__link--logout {
   width: 24px;
 }
 .header__logo {
@@ -45,6 +46,8 @@ body {
   width: 24px;
   margin: 10px 20px 10px 0px;
 }
+
+/* Menu */
 .menu {
   height: 49px;
   width: 320px;
@@ -52,16 +55,16 @@ body {
 }
 .menu__items {
   margin: 0px 19px 0px 20px;
-
-  /* grid */
   display: grid;
   grid-template-columns: repeat(3, 93px);
   grid-template-rows: 49px;
   grid-column-gap: 1px;
   background-color: #dfdfdf;
 }
+/* border were set with background color */
 .menu__item {
   height: 48px;
+  width: 93px;
   font-weight: 400;
   font-size: 11px;
   line-height: 16.5px;
@@ -70,14 +73,6 @@ body {
   background-color: #ffffff;
   cursor: pointer;
 }
-/* .menu__item--buddy {
-  border: 1px solid #dfdfdf;
-  border-top: none;
-  border-bottom: none;
-} */
-/* ask here */
-/* right cizik */
-/* whole page grid or can i divide  */
 .menu__item--isActive {
   background-color: var(--primary-blue);
   color: #ffffff;
@@ -92,16 +87,14 @@ body {
   margin: 7px 40px 0px 35px;
   margin-bottom: 0px;
 }
+/* Profile */
 .profile {
   margin: 17px 29px;
   display: grid;
   grid-template-columns: 86px repeat(2, 35px);
   grid-template-rows: 86px;
-  grid-column-gap: 0px;
-  grid-row-gap: 0px;
 }
 .profile__text {
-  font-family: "Roboto";
   font-style: normal;
   font-weight: 400;
   font-size: 13px;
@@ -112,20 +105,25 @@ body {
   color: var(--primary-blue);
   font-weight: 500;
   font-size: 17px;
+  height: 22px;
   line-height: 130%;
   display: inline-block;
 }
 .profile__info {
   height: 40px;
 }
-.profile__info-self {
+.profile__info--self {
   width: 35px;
   margin: auto 0px auto 10px;
 }
-.profile__info-buddy {
+.profile__info--buddy {
   width: 87px;
   margin: auto 0px auto 46px;
 }
+.profile__buddy-name{
+
+}
+/* Mood */
 .mood {
   position: relative;
   width: 320px;
@@ -142,7 +140,6 @@ body {
   transform: rotateZ(-2deg);
   background-color: rgba(250, 150, 27, 0.1);
 }
-
 .mood__header {
   margin: 25px 177px 0px 21px;
   text-align: center;
@@ -169,6 +166,7 @@ body {
   z-index: 3;
   background-color: var(--primary-yellow);
   border: 1px solid #fa941b;
+  /* border -> primary yellow */
   border-radius: 5px;
 }
 .mood__title {
@@ -201,23 +199,19 @@ body {
   font-size: 12px;
   line-height: 120%;
   color: #7a7a7a;
-  text-align: left;
-  margin: 0 16px;
-  text-align: start;
+  margin: 0 13px;
 }
-.mood__emoji {
-  margin: 14px 17px 19px 14px;
+.mood__emojis {
+  margin: 14px 0px 19px 5px;
+  padding: 0px;
   display: grid;
   grid-template-columns: repeat(5, 1fr);
   grid-template-rows: 1fr;
 }
 .emoji {
-  margin: 0px auto;
+  margin: 0px 5px;
   transition-duration: 0.3s;
 }
-.emoji:hover {
+.emoji:active {
   transform: scale(1.3);
-}
-.omer {
-  margin-top: 50px;
 }
