@@ -15,7 +15,6 @@ body {
   font-style: normal;
   position: absolute;
 }
-
 /* Header */
 .header {
   height: 44px;
@@ -46,7 +45,6 @@ body {
   width: 24px;
   margin: 10px 20px 10px 0px;
 }
-
 /* Menu */
 .menu {
   height: 49px;
@@ -119,9 +117,6 @@ body {
 .profile__info--buddy {
   width: 87px;
   margin: auto 0px auto 46px;
-}
-.profile__buddy-name{
-
 }
 /* Mood */
 .mood {
