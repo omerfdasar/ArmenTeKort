@@ -1,116 +1,106 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      rel="icon"
-      href="https://www.armentekort.be/wp-content/uploads/2014/10/17190724_867366570070133_1969387505207104213_n.png"
-    />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap"
-      rel="stylesheet"
-    />
-    <link rel="stylesheet" href="style.css" />
-    <title>ArmenTeKort</title>
-  </head>
 
-  <body>
-    <header class="header">
-      <a href="#" class="header__link header__link--logo">
-        <img src="./Assets/logo.png" alt="logo" class="header__logo" />
-      </a>
-      <a href="#" class="header__link header__link--logout">
-        <img src="./Assets/logout.svg" alt="logout" class="header__logout" />
-      </a>
-    </header>
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link rel="icon"
+    href="https://www.armentekort.be/wp-content/uploads/2014/10/17190724_867366570070133_1969387505207104213_n.png" />
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap" rel="stylesheet" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css" />
+  <title>ArmenTeKort</title>
+</head>
 
-    <menu class="menu">
-      <div class="menu__items">
-        <div class="menu__item menu__item--isActive">
-          <img src="./Assets/user.svg" alt="user" class="menu__image" />
-          <p class="menu__title">My profile</p>
-        </div>
-        <div class="menu__item">
-          <img src="./Assets/buddy.svg" alt="buddy" class="menu__image" />
-          <p class="menu__title">My buddy</p>
-        </div>
-        <div class="menu__item">
-          <img src="./Assets/tips.svg" alt="tips" class="menu__image" />
-          <p class="menu__title">Tips & News</p>
-        </div>
-      </div>
-    </menu>
-    <section class="section">
-      <div class="profile">
-        <div class="profile__photo">
-          <img src="./Assets/profile.svg" alt="" />
-        </div>
-        <div class="profile__info profile__info--self">
-          <p class="profile__text">Name</p>
-          <p class="profile__text profile__text--name">Rick</p>
-        </div>
-        <div class="profile__info profile__info--buddy">
-          <p class="profile__text profile__text-buddy">My buddy</p>
+<body>
+  <header class="header">
+    <a href="#" class="header__link header__link--logo">
+      <img src="./Assets/logo.png" alt="logo" class="header__logo" />
+    </a>
+    <a href="#" class="header__link header__link--logout">
+      <img src="./Assets/logout.svg" alt="logout" class="header__logout" />
+    </a>
+  </header>
 
-          
-          <img
-            src="./Assets/malaika.svg"
-            alt="buddy"
-            width="20px"
-            height="20px"
-            class="profile__budy-photo"
-          />
-          <p class="profile__text profile__text--name profile__buddy-name">
-            Malaika
-          </p>
-        </div>
+  <menu class="menu">
+    <div class="menu__items">
+      <div class="menu__item menu__item--isActive">
+        <img src="./Assets/user.svg" alt="user" class="menu__image" />
+        <p class="menu__title">My profile</p>
       </div>
-    </section>
+      <div class="menu__item">
+        <img src="./Assets/buddy.svg" alt="buddy" class="menu__image" />
+        <p class="menu__title">My buddy</p>
+      </div>
+      <div class="menu__item">
+        <img src="./Assets/tips.svg" alt="tips" class="menu__image" />
+        <p class="menu__title">Tips & News</p>
+      </div>
+    </div>
+  </menu>
+  <section class="section">
+    <div class="profile">
+      <div class="profile__photo">
+        <img src="./Assets/profile.svg" alt="" />
+      </div>
+      <div class="profile__info profile__info--self">
+        <p class="profile__text">Name</p>
+        <p class="profile__text profile__text--name">Rick</p>
+      </div>
+      <div class="profile__info profile__info--buddy">
+        <p class="profile__text profile__text-buddy">My buddy</p>
 
-    <section class="mood">
-      <div class="mood__background">
-        <img
-          src="./Assets/background-leaf.svg"
-          alt="leaf"
-          class="background-leaf"
-        />
+
+        <img src="./Assets/malaika.svg" alt="buddy" width="20px" height="20px" class="profile__budy-photo" />
+        <p class="profile__text profile__text--name profile__buddy-name">
+          Malaika
+        </p>
       </div>
-      <div class="mood__header">
-        <h2 class="mood__question">How are you?</h2>
-      </div>
-      <div class="mood__container">
-        <h2 class="mood__title">+ My mood</h2>
-        <div class="mood__content">
-          <h2 class="mood__content-title">
-            Share how you feel with ArmenTeKort
-          </h2>
-          <p class="mood__statement">
-            This information is only shared with ATK and won’t be shown to your
-            buddy.
-          </p>
-          <div class="mood__emojis">
-            <div class="emoji">
-              <img src="./Assets/mood-1.svg" alt="emoji" />
-            </div>
-            <div class="emoji">
-              <img src="./Assets/mood-2.svg" alt="emoji" />
-            </div>
-            <div class="emoji">
-              <img src="./Assets/mood-3.svg" alt="emoji" />
-            </div>
-            <div class="emoji">
-              <img src="./Assets/mood-4.svg" alt="emoji" />
-            </div>
-            <div class="emoji">
-              <img src="./Assets/mood-5.svg" alt="emoji" />
-            </div>
+    </div>
+  </section>
+
+  <section class="mood">
+    <div class="mood__background">
+      <img src="./Assets/background-leaf.svg" alt="leaf" class="background-leaf" />
+    </div>
+    <div class="mood__header">
+      <h2 class="mood__question">How are you?</h2>
+    </div>
+    <div class="mood__container">
+      <p class="mood__title">+ My mood</p>
+      <div class="mood__content">
+        <p class="mood__content-title">
+          Share how you feel with ArmenTeKort
+        </p>
+        <p class="mood__statement">
+          This information is only shared with ATK and won’t be shown to your
+          buddy.
+        </p>
+        <div class="mood__emojis">
+          <div class="emoji">
+            <img src="./Assets/mood-1.svg" alt="emoji" class="emojiSVG" />
+          </div>
+          <div class="emoji">
+            <img src="./Assets/mood-2.svg" alt="emoji" class="emojiSVG" />
+          </div>
+          <div class="emoji">
+            <img src="./Assets/mood-3.svg" alt="emoji" class="emojiSVG" />
+          </div>
+          <div class="emoji">
+            <img src="./Assets/mood-4.svg" alt="emoji" class="emojiSVG" />
+          </div>
+          <div class="emoji">
+            <img src="./Assets/mood-5.svg" alt="emoji" class="emojiSVG" />
           </div>
         </div>
       </div>
-    </section>
-  </body>
+    </div>
+  </section>
+</body>
+
 </html>
